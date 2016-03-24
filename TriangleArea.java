@@ -12,8 +12,8 @@ public class TriangleArea {
         cX = input.nextInt();
         cY = input.nextInt();
 
-        area = (aX * (bY-cY) +  bX * (cY-aY) + cX * (aY-bY))/2;
+        areaTriangle = (aX * (bY-cY) +  bX * (cY-aY) + cX * (aY-bY))/2;
 
-                System.out.println(Math.abs(area));
+                System.out.println(Math.abs(areaTriangle));
     }
 }
